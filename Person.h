@@ -13,7 +13,7 @@ class Person{
     string myName;
     int mySalary;
 
-Person(string ,int);
+Person(int ,string);
 // a name and salary must be provided to create a Person
 void setName(string);         // change the Person's name
 string getName();

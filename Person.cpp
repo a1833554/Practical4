@@ -5,7 +5,7 @@
 #include <iostream>
 using namespace std;
 
-Person::Person(string name,int salary){
+Person::Person(int salary,string name){
     myName = name;
     mySalary = salary;
 }
