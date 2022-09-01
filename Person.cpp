@@ -1,13 +1,18 @@
 
 
 #include "Person.h"
+#include <string>
+#include <iostream>
 using namespace std;
 
+Person::Person(string name,int salary){
+    myName = name;
+    mySalary = salary;
+}
 
-
-void Person::setName(string sname)
+void Person::setName(string name)
 {
-    myName = sname;
+    myName = name;
 }
 
 string Person::getName()
