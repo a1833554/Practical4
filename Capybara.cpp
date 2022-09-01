@@ -1,3 +1,3 @@
-#include "Capybara.hpp"
+#include "Capybara.h"
 
 Capybara::Capybara(){}
